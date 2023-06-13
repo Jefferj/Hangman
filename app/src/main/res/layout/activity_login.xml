@@ -7,10 +7,57 @@
     tools:context=".LoginActivity">
 
     <Button
+        android:id="@+id/button2"
+        android:layout_width="285dp"
+        android:layout_height="54dp"
+        android:background="#00BE9D"
+        android:text="Registrarse"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="285dp"
         android:layout_height="54dp"
+        android:background="#46BE9D"
+        android:backgroundTint="#FAF7F7"
         android:text="Iniciar Sesión"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:iconTint="#05BE9D"
+        app:strokeColor="#5C1616"
         tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="490dp" />
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="226dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Hangman"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="272dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="323dp"
+        tools:text="Correo Electrónico" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="276dp"
+        android:layout_height="34dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="372dp"
+        tools:text="Contraseña" />
 </androidx.constraintlayout.widget.ConstraintLayout>
