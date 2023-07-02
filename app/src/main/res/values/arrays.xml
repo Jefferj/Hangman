@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>ANDROID</item>
+        <item>COMPUTER</item>
+        <item>CELLPHONE</item>
+        <item>TEACHER</item>
+        <item>APPLE</item>
+        <item>ORANGE</item>
+        <item>COFFEE</item>
+        <item>CODE</item>
+        <item>MOUSE</item>
+        <item>LETTER</item>
+        <item>BOAT</item>
+        <item>CAR</item>
+        <item>DOOR</item>
+        <item>CHAIR</item>
+        <item>HELLO</item>
+        <item>WORLD</item>
+        <item>AGE</item>
+    </string-array>
+</resources>

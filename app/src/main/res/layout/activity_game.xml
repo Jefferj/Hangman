@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="#000000"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#957DAD"
+        android:gravity="center"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gallows"
+            android:layout_marginBottom="40dp"/>
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/head"
+            android:paddingStart="108dp"
+            android:paddingTop="23dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/body"
+            android:paddingStart="120dp"
+            android:paddingTop="53dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/armLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/arm_left"
+            android:paddingStart="100dp"
+            android:paddingTop="60dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/armRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/leg_right"
+            android:paddingStart="100dp"
+            android:paddingTop="23dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/legLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/leg_left"
+            android:paddingStart="101dp"
+            android:paddingTop="90dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/legRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/leg_right"
+            android:paddingStart="121dp"
+            android:paddingTop="90dp"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:gravity="center" />
+
+    <GridView
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/black"
+        android:numColumns="7"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"/>
+
+
+
+</LinearLayout>

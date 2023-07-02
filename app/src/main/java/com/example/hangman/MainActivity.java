@@ -1,5 +1,6 @@
 package com.example.hangman;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -43,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+    }
+
+    public void play(View view){
+        Intent intent = new Intent(this, GameActivity.class);
+        startActivity(intent);
     }
 
     @Override
